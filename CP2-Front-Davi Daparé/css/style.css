@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(to top, #1b947e,#12c9a7, #1ce7c2 );
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.pokeboll{
+    width: 5.5rem;
+    margin: 10px;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container--title{
+    position: relative;
+    text-align: center;
+}
+
+.title--text{
+    font-size: 15vw;
+    list-style: none;
+    color: rgb(36, 175, 175);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: var(--secundary-color);
+}
+
+.container div{
+    width: 55%;
+    z-index: 1;
+}
+
+.container h2{
+    font-size: 4vh;
+    color: #000;
+    text-align: start;
+    margin: 10px;
+}
+
+.squirtle--image{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    height: 50px;
+}
